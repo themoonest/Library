@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* IE9+이하 버전 css */
+
+/*메인페이지 게시판*/
+.board_tab_wrap .main_tit_2.on:after{left: 80px;}
+/*메인페이지 화제의책*/
+.book_img_wrap{overflow: hidden;float: left;width: 144px;height: 202px;border: 1px solid #b4b4b4;}
+.hot_book .cnt{padding: 36px 0 0 6px;}
+.hot_book .main_cnt img{margin-left: -5px;border: 0;}
