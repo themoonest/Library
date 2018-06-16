@@ -113,7 +113,7 @@ jQuery(function($){
       }
     });
   }
-  window.addEventListener('load',function(){
+  $(window).on('load',function(){
     mapInit();
   });
     /* 메인페이지 bxslider*/
