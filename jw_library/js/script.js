@@ -1,5 +1,17 @@
-jQuery(function($){
-  
+jQuery(function($){  
+  //모바일 버전 연결
+  var url="http://themoonest.com/library"; 
+  var murl="http://themoonest.com/library/m"; 
+  if(document.referrer.substring(0,url.length)!=url){
+    var mobileKeyWords = new Array('iPhone','iPod','iPad','BlackBerry','Android','Windows CE' ,'SAMSUNG','LG','MOT','SonyEricsson');
+    for (var word in mobileKeyWords){
+      if (navigator.userAgent.match(mobileKeyWords[word])!=null){
+        location.href=murl;
+        break;
+      }
+    }
+  };	
+  var winH = window.innerHeight;
     /*top btn*/
   $(window).on('scroll',function(){
     $(this).scrollTop()>66? $('.top_btn').fadeIn() : $('.top_btn').fadeOut();
@@ -8,7 +20,6 @@ jQuery(function($){
     $('html, body').animate({scrollTop : 0}, 400);
     document.getElementById('logo_focus').focus();
   });
-  
     /*메인페이지 skip navigation*/
   for(i=1; i<=$('.skip').length; i++){
     $('.skip_'+i).on({
@@ -20,7 +31,6 @@ jQuery(function($){
       }
     });
   }
-  
     /*메인페이지 notice banner*/
   $('.fl_notice .cls_btn').on({
     click:function(){
@@ -30,7 +40,6 @@ jQuery(function($){
       $(this).parent().slideUp();
     }
   });
-  
     /*메인페이지 main navigator*/
   $('.gnb .list').on({
     mouseenter:function(){
@@ -53,7 +62,6 @@ jQuery(function($){
   $('.gnb>li>ul>.nav_last>a').on('blur',function(){
     $(this).parent().trigger('mouseleave');
   })
-
     /* 메인페이지 소장자료*/
   $('html').on('click',function(e) { 
     if(!$(e.target).hasClass('srch_ck')){
@@ -159,25 +167,3 @@ jQuery(function($){
     $site_p.trigger('click');
   });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
