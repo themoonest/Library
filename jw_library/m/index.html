@@ -1,419 +1,416 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>성남시중원도서관</title>
-  <meta property="og:title" content="성남시중원도서관 Moblie.ver">
-  <meta property="og:description" content="본 페이지는 개인 포트폴리오 용도로 제작되었습니다.">
-  <meta property="og:image" content="imgs/og_img_m.png">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" href="../assets/bxslider/jquery.bxslider.min.css">
-  <script type="text/javascript" src="../assets/jquery.min.js"></script>
-  <script type="text/javascript" src="../assets/bxslider/jquery.bxslider.min.js"></script>
-  <!--[if lt IE 9]>
-    <script src="../assets/respond.min.js"></script>
-  <![endif]-->
-  <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=ffr5X3qJxB5hNSS0YSsQ&submodules=geocoder"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>성남시중원도서관</title>
+<meta property="og:title" content="성남시중원도서관 Moblie.ver">
+<meta property="og:description" content="본 페이지는 개인 포트폴리오 용도로 제작되었습니다.">
+<meta property="og:image" content="imgs/og_img_m.png">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="../assets/bxslider/jquery.bxslider.min.css">
+<script type="text/javascript" src="../assets/jquery.min.js"></script>
+<script type="text/javascript" src="../assets/bxslider/jquery.bxslider.min.js"></script>
+<!--[if lt IE 9]>
+<script src="../assets/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=ffr5X3qJxB5hNSS0YSsQ&submodules=geocoder"></script>
 </head>
 <body>
-  <div class="wrap">
-    <div class="cnt_wrap">
-      <!-- header -->
-      <header id="header">
-        <div class="full_ct clearfix">
-          <div class="logo_wrap">
-            <h1 class="logo"><a href="index.html" class="ir" id="logo_focus">성남시중원도서관</a></h1>
-          </div>
-          <a href="#" id="btnHamburger">
-            <div class="tit">
-              메뉴보기
-            </div>
-            <span class="bars">
-              <span class="bar bar_1"></span>
-              <span class="bar bar_2"></span>
-              <span class="bar bar_3"></span>
-            </span>
-          </a>
-        </div>
-      </header>
-      <!-- container -->
-      <main class="container">
-        <div class="full_ct fl_visual">
-          <!-- visual -->
-          <div class="visual_wrap">
-            <div class="visual">
-              도서관 전경 사진
-            </div>
-          </div>
-          <form class="book_srch_frm" id="srh_skip">
-            <fieldset>
-              <div class="book_srch">
-                <label for="srch">소장자료찾기</label>
-                <div class="srch_box clearfix">
-                  <input type="text" name="srch" id="srch" class="srch_ck" placeholder="찾고 싶은 책을 입력해 주세요">
-                  <button type="button" class="srch_btn"><span>검색</span></button>
-                </div>
-              </div>
-            </fieldset>
-          </form>
-        </div>      
-        <div class="holiday_wrap">
-          <div class="holiday clearfix">
-            <h3 class="main_tit"><span>5월</span> 휴관일 안내</h3>
-            <div class="holiday_date">
-              <div class="main_cnt clearfix">
-                <div class="tit">정기휴관</div>
-                <div class="cnt"><span>5월</span>
-                  <ul class="date">
-                    <li class="list">4일</li>
-                    <li class="list list_line">11일</li>
-                    <li class="list list_line">18일</li>
-                    <li class="list list_line">25일</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="main_cnt clearfix">
-                <div class="tit">임시휴관</div>
-                <div class="cnt"><span>5월</span>
-                  <ul class="date clearfix">
-                    <li class="list">5일</li>
-                    <li class="list list_line">7일</li>
-                    <li class="list list_line">22일</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="board_wrap main_bd_t main_bd_l">
-            <div class="board_tab_wrap">
-              <div class="tab_nav clearfix">
-                <h3 class="main_tit on"><a href="javascript:void(0)">공지사항</a></h3>
-                <h3 class="main_tit main_tit_2"><a href="javascript:void(0)">보도자료</a></h3>
-              </div>
-              <div class="tab_cnt_wrap">
-                <ul class="tab_cnt cnt_1 on">
-                  <li class="tab_list"><a href="javascript:void(0)" class="clearfix">
-                    <div class="field">
-                      <p class="cnt">공지사항</p>
-                    </div>
-                    <p class="main_cnt ellipsis">2018년 ‘중원도서관’ 5행시 공모 결과</p>
-                    <div class="date">2018-05-24</div>
-                  </a></li>
-                  <li class="tab_list"><a href="javascript:void(0)" class="clearfix">
-                    <div class="field">
-                      <p class="cnt">공지사항</p>
-                    </div>
-                    <p class="main_cnt ellipsis">5월 퀴즈데이 문제</p>
-                    <div class="date">2018-05-18</div>
-                  </a></li>
-                  <li class="tab_list"><a href="javascript:void(0)" class="clearfix">
-                    <div class="field">
-                      <p class="cnt">공지사항</p>
-                    </div>
-                    <p class="main_cnt ellipsis">2018년 환경의 달 운영일정 안내</p>
-                    <div class="date">2018-05-14</div>
-                  </a></li>
-                  <li class="tab_list"><a href="javascript:void(0)" class="clearfix">
-                    <div class="field">
-                      <p class="cnt">공지사항</p>
-                    </div>
-                    <p class="main_cnt ellipsis">사물함 운영자 변경알림</p>
-                    <div class="date">2018-05-09</div>
-                  </a></li>
-                  <li class="tab_list"><a href="javascript:void(0)" class="clearfix">
-                    <div class="field">
-                      <p class="cnt">공지사항</p>
-                    </div>
-                    <p class="main_cnt ellipsis">도서관서비스 일시중단 안내문</p>
-                    <div class="date">2018-05-01</div>
-                  </a></li>
-                </ul>
-                <ul class="tab_cnt cnt_2">
-                    <li class="tab_list"><a href="javascript:void(0)" class="clearfix">
-                      <div class="field">
-                        <p class="cnt">보도자료</p>
-                      </div>
-                      <p class="main_cnt ellipsis">한국인의 의식주는 한옥에서 유래되었다?</p>
-                      <div class="date">2018-05-28</div>
-                    </a></li>
-                    <li class="tab_list"><a href="javascript:void(0)" class="clearfix">
-                      <div class="field">
-                        <p class="cnt">보도자료</p>
-                      </div>
-                      <p class="main_cnt ellipsis">오픈데이터, 디지털 트랜스포메이션을 말하다</p>
-                      <div class="date">2018-05-22</div>
-                    </a></li>
-                    <li class="tab_list"><a href="javascript:void(0)" class="clearfix">
-                      <div class="field">
-                        <p class="cnt">보도자료</p>
-                      </div>
-                      <p class="main_cnt ellipsis">'책 읽는 주말’에 ‘몸과 인문학’을 만나다</p>
-                      <div class="date">2018-05-19</div>
-                    </a></li>
-                    <li class="tab_list"><a href="javascript:void(0)" class="clearfix">
-                      <div class="field">
-                        <p class="cnt">보도자료</p>
-                      </div>
-                      <p class="main_cnt ellipsis">변화의 시대, 사서들이 주는 희망의 메시지</p>
-                      <div class="date">2018-05-09</div>
-                    </a></li>
-                    <li class="tab_list"><a href="javascript:void(0)" class="clearfix">
-                      <div class="field">
-                        <p class="cnt">보도자료</p>
-                      </div>
-                      <p class="main_cnt ellipsis">공공도서관에서 가장 자주 대출한 과학도서는?</p>
-                      <div class="date">2018-05-05</div>
-                    </a></li>
-                  </ul>
-              </div>
-            </div>
-        </div>
-        <div class="full_ct clearfix">
-          <div class="my_lib_wrap bg_g_s bg_g_w">
-            <div class="my_lib com_p">
-              <h3 class="main_tit"><a href="javascript:void(0)">내 서재</a></h3>
-              <ul class="main_cnt clearfix">
-                <li class="cnt cnt_1"><a href="javascript:void(0)">
-                  <div class="ir ir_1">개인정보관리이미지</div>
-                  <p class="tit">개인정보관리</p>
-                </a></li>
-                <li class="cnt cnt_2"><a href="javascript:void(0)">
-                  <div class="ir ir_2">대출예약/현황조회이미지</div>              
-                  <p class="tit">대출예약/현황조회</p>
-                </a></li>
-                <li class="cnt cnt_3"><a href="javascript:void(0)">
-                  <div class="ir ir_3">희망도서신청이미지</div>
-                  <p class="tit">희망도서신청</p>
-                </a></li>
-                <li class="cnt cnt_4"><a href="javascript:void(0)">
-                  <div class="ir ir_4">상호대차조회이미지</div>
-                  <p class="tit">상호대차조회</p>
-                </a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="sit_wrap bg_g_w">
-            <div class="sit com_p">
-              <h3 class="main_tit">열람실 좌석현황</h3>
-              <div class="main_cnt_wrap">
-                <div class="main_cnt clearfix">
-                  <div class="cnt cnt_1">
-                    <h4 class="sub_tit">제 1열람실<span class="floor">(3층)</span></h4>
-                    <div class="sit_cont clearfix">
-                      <div class="sit_now">
-                        <div class="tit">잔여좌석</div>
-                        <div class="sit_num">131<span>석</span></div>
-                      </div>
-                      <div class="sit_all">
-                        <div class="tit">전체좌석</div>
-                        <div class="sit_num">238<span>석</span></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cnt cnt_2">
-                    <h4 class="sub_tit">제 2열람실<span class="floor">(4층)</span></h4>
-                    <div class="sit_cont clearfix">
-                      <div class="sit_now">
-                        <div class="tit">잔여좌석</div>
-                        <div class="sit_num">179<span>석</span></div>
-                      </div>
-                      <div class="sit_all">
-                        <div class="tit">전체좌석</div>
-                        <div class="sit_num">302<span>석</span></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="full_ct clearfix">
-          <div class="new_book_wrap bg_g_s">
-            <div class="new_book com_p">
-              <h3 class="main_tit"><a href="javascript:void(0)">신착 도서</a></h3>
-              <div class="new_bx_wrap">
-                <div class="new">
-                  <div class="main_cnt clearfix">
-                    <p class="tit">Vue.js 첫걸음</p>
-                    <div class="new_img">
-                      <img src="imgs/new_book_1.png" alt="Vue.js 첫걸음 책표지">
-                    </div>
-                  </div>
-                  <div class="main_cnt clearfix">
-                    <p class="tit">Advanced Php<br>Programming</p>
-                    <div class="new_img">
-                      <img src="imgs/new_book_2.png" alt="Advanced Php Programming 책표지">
-                    </div>
-                  </div>
-                  <div class="main_cnt clearfix">
-                    <p class="tit">Python 3 START-UP</p>
-                    <div class="new_img">
-                      <img src="imgs/new_book_3.png" alt="Python 3 START-UP 책표지">
-                    </div>
-                  </div>
-                </div>
-                <div class="controls"><a href="javascript:void(0);" class="ir new_prev_btn"><span>이전</span></a><a href="javascript:void(0);" class="ir  new_next_btn"><span>다음</span></a></div>
-              </div>
-            </div>
-          </div>
-          <div class="hot_book_wrap">
-            <div class="hot_book com_p">
-              <h3 class="main_tit">화제의 책</h3>
-              <div class="main_cnt_wrap">
-                <div class="main_cnt clearfix">
-                  <div class="book_img_wrap">
-                    <img src="imgs/hot_book.png" alt="책 이미지">
-                  </div>
-                  <div class="cnt">
-                    <p class="book_sub">자바스크립트 언어의 정수</p>
-                    <p class="book_name">더글라스 크락포드의<br> 자바스크립트 핵심 가이드</p>
-                    <p class="book_writer">더글라스 크락포드 저<br>김명신 역</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="full_ct clearfix">
-          <div class="lec_wrap bg_g_s bg_g_w">
-            <div class="lec com_p">
-              <h3 class="main_tit"><a href="javascript:void(0)">강좌신청</a></h3>
-              <div class="main_cnt_wrap">
-                <div class="main_cnt">
-                  <a href="javascript:void(0)">
-                    <img class="lec_img" src="imgs/lec_poster.png" alt="강좌 포스터">
-                    <p class="lec_tit">엄마 아빠와 함께 배우는 코딩 첫 걸음</p>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="map_wrap bg_g_w">
-            <div class="map com_p">
-              <div class="map_tab_wrap main_cnt_wrap">
-                <div class="tab_nav clearfix">
-                  <h3 class="main_tit main_tit_1 on"><a href="javascript:void(0)">찾아오시는 길</a></h3>
-                  <p class="main_tit main_tit_2"><a href="javascript:void(0)">지도로 보기 <span> &#8744;</span></a></p>
-                </div>
-                <div class="tab_cnt_wrap">
-                  <div class="tab_cnt cnt_1 on">
-                    <ul class="main_cnt">
-                      <li class="adr list">
-                        <h4 class="sub_tit">위치</h4>
-                        <p class="cnt">성남시 중원구 원터로 17번길 46</p>
-                      </li>
-                      <li class="subway list">
-                        <h4 class="sub_tit">지하철</h4>
-                        <div class="cnt cnt_1 clearfix">
-                          <img src="imgs/subway_1.png" alt="8호선" class="fll fll_1">
-                          <img src="imgs/subway_2.png" alt="분당선" class="fll fll_2">
-                          <p class="fll subway_name">모란역</p>
-                        </div>
-                        <div class="cnt cnt_2 clearfix">
-                          <img src="imgs/subway_1.png" alt="8호선" class="fll fll_1">
-                          <p class="fll subway_name">수진역</p>
-                        </div>
-                      </li>
-                      <li class="bus list">
-                        <h4 class="sub_tit">버스</h4>
-                        <p class="cnt">57, 60, 88, 88-1, 302<br>현대아파트<span>(하차)</span></p>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="tab_cnt cnt_2">
-                    <div id="myMap" class="my_map"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </main>
-      <footer id="footer">
-        <div class="full_ct fl_ft_nav">
-          <div class="inner_ct">
-            <div class="ft_nav_wrap">
-              <h2 class="blind">도서관 법령 및 정책</h2>
-              <ul class="ft_nav">
-                <li class="list str"><a href="javascript:void(0)">개인정보처리방침</a></li>
-                <li class="list"><a href="javascript:void(0)">도서관법령</a></li>
-              </ul>
-            </div>
-          </div>
-        </div> 
-        <div class="inner_ct">
-          <div class="ft_logo_wrap clearfix">
-            <h3 class="ft_logo">
-              성남시중원도서관
-            </h3>
-            <p class="copyright">
-              Copyright(c) 2018 themoonest.com All Rights Reserved.
-            </p>
-          </div>
-          <div class="pc_ver">
-            <a href="../index.html" class="btn go_pc">PC버전</a>
-          </div>
-        </div>
-      </footer>
-    </div>
-    <div class="modal"></div>
-    <nav class="sidemenu">
-      <ul class="gnb">
-        <li class="list"><a href="javascript:void(0)">도서관소개</a>
-          <ul class="list_cnt">
-            <li><a href="javascript:void(0)">인사말</a></li>
-            <li><a href="javascript:void(0)">기구/조직</a></li>
-            <li><a href="javascript:void(0)">이용안내</a></li>
-            <li><a href="javascript:void(0)">찾아오시는 길</a></li>
-            <li><a href="javascript:void(0)">도서관안내도</a></li>
-            <li class="last"><a href="javascript:void(0)">서비스현장</a></li>
-          </ul>
-        </li>
-        <li class="list"><a href="javascript:void(0)">자료검색</a>
-          <ul class="list_cnt">
-            <li><a href="javascript:void(0)">통합자료검색</a></li>
-            <li><a href="javascript:void(0)">단행본검색(예약)</a></li>
-            <li><a href="javascript:void(0)">연속간행물검색</a></li>
-            <li><a href="javascript:void(0)">비도서검색</a></li>
-            <li><a href="javascript:void(0)">원문정보서비스</a></li>
-            <li class="last"><a href="javascript:void(0)">잡지목차서비스</a></li>
-          </ul>
-        </li>
-        <li class="list"><a href="javascript:void(0)">열린마당</a>
-          <ul class="list_cnt">
-            <li><a href="javascript:void(0)">공지사항</a></li>
-            <li><a href="javascript:void(0)">보도자료</a></li>
-            <li><a href="javascript:void(0)">행사일정</a></li>
-            <li><a href="javascript:void(0)">자유게시판</a></li>
-            <li><a href="javascript:void(0)">자원봉사모집</a></li>
-            <li><a href="javascript:void(0)">주간식단</a></li>
-            <li class="last"><a href="javascript:void(0)">FAQ</a></li>
-          </ul>
-        </li>
-        <li class="list"><a href="javascript:void(0)">문화강좌</a>
-          <ul class="list_cnt">
-            <li><a href="javascript:void(0)">강좌안내</a></li>
-            <li><a href="javascript:void(0)">문화교실접수</a></li>
-            <li><a href="javascript:void(0)">컴퓨터교육접수</a></li>
-            <li><a href="javascript:void(0)">온라인접수</a></li>
-            <li class="last"><a href="javascript:void(0)">단체접수</a></li>
-          </ul>
-        </li>
-        <li class="list"><a href="javascript:void(0)">내서재</a>
-          <ul class="list_cnt">
-            <li><a href="javascript:void(0)">개인정보관리</a></li>
-            <li><a href="javascript:void(0)">대출예약/현황조회</a></li>
-            <li><a href="javascript:void(0)">희망도서신청</a></li>
-            <li class="last nav_last"><a href="javascript:void(0)">상호대차조회</a></li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
-  </div>
-  <script type="text/javascript" src="js/script.js"></script>
+<div class="wrap">
+<div class="cnt_wrap">
+<header id="header">
+<div class="full_ct clearfix">
+<div class="logo_wrap">
+<h1 class="logo"><a href="index.html" class="ir" id="logo_focus">성남시중원도서관</a></h1>
+</div>
+<a href="#" id="btnHamburger">
+<div class="tit">
+메뉴보기
+</div>
+<span class="bars">
+<span class="bar bar_1"></span>
+<span class="bar bar_2"></span>
+<span class="bar bar_3"></span>
+</span>
+</a>
+</div>
+</header>
+<main class="container">
+<div class="full_ct fl_visual">
+<div class="visual_wrap">
+<div class="visual">
+도서관 전경 사진
+</div>
+</div>
+<form class="book_srch_frm" id="srh_skip">
+<fieldset>
+<div class="book_srch">
+<label for="srch">소장자료찾기</label>
+<div class="srch_box clearfix">
+<input type="text" name="srch" id="srch" class="srch_ck" placeholder="찾고 싶은 책을 입력해 주세요">
+<button type="button" class="srch_btn"><span>검색</span></button>
+</div>
+</div>
+</fieldset>
+</form>
+</div>      
+<div class="holiday_wrap">
+<div class="holiday clearfix">
+<h3 class="main_tit"><span>5월</span> 휴관일 안내</h3>
+<div class="holiday_date">
+<div class="main_cnt clearfix">
+<div class="tit">정기휴관</div>
+<div class="cnt"><span>5월</span>
+<ul class="date">
+<li class="list">4일</li>
+<li class="list list_line">11일</li>
+<li class="list list_line">18일</li>
+<li class="list list_line">25일</li>
+</ul>
+</div>
+</div>
+<div class="main_cnt clearfix">
+<div class="tit">임시휴관</div>
+<div class="cnt"><span>5월</span>
+<ul class="date clearfix">
+<li class="list">5일</li>
+<li class="list list_line">7일</li>
+<li class="list list_line">22일</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="board_wrap main_bd_t main_bd_l">
+<div class="board_tab_wrap">
+<div class="tab_nav clearfix">
+<h3 class="main_tit on"><a href="javascript:void(0)">공지사항</a></h3>
+<h3 class="main_tit main_tit_2"><a href="javascript:void(0)">보도자료</a></h3>
+</div>
+<div class="tab_cnt_wrap">
+<ul class="tab_cnt cnt_1 on">
+<li class="tab_list"><a href="javascript:void(0)" class="clearfix">
+<div class="field">
+<p class="cnt">공지사항</p>
+</div>
+<p class="main_cnt ellipsis">2018년 ‘중원도서관’ 5행시 공모 결과</p>
+<div class="date">2018-05-24</div>
+</a></li>
+<li class="tab_list"><a href="javascript:void(0)" class="clearfix">
+<div class="field">
+<p class="cnt">공지사항</p>
+</div>
+<p class="main_cnt ellipsis">5월 퀴즈데이 문제</p>
+<div class="date">2018-05-18</div>
+</a></li>
+<li class="tab_list"><a href="javascript:void(0)" class="clearfix">
+<div class="field">
+<p class="cnt">공지사항</p>
+</div>
+<p class="main_cnt ellipsis">2018년 환경의 달 운영일정 안내</p>
+<div class="date">2018-05-14</div>
+</a></li>
+<li class="tab_list"><a href="javascript:void(0)" class="clearfix">
+<div class="field">
+<p class="cnt">공지사항</p>
+</div>
+<p class="main_cnt ellipsis">사물함 운영자 변경알림</p>
+<div class="date">2018-05-09</div>
+</a></li>
+<li class="tab_list"><a href="javascript:void(0)" class="clearfix">
+<div class="field">
+<p class="cnt">공지사항</p>
+</div>
+<p class="main_cnt ellipsis">도서관서비스 일시중단 안내문</p>
+<div class="date">2018-05-01</div>
+</a></li>
+</ul>
+<ul class="tab_cnt cnt_2">
+<li class="tab_list"><a href="javascript:void(0)" class="clearfix">
+<div class="field">
+<p class="cnt">보도자료</p>
+</div>
+<p class="main_cnt ellipsis">한국인의 의식주는 한옥에서 유래되었다?</p>
+<div class="date">2018-05-28</div>
+</a></li>
+<li class="tab_list"><a href="javascript:void(0)" class="clearfix">
+<div class="field">
+<p class="cnt">보도자료</p>
+</div>
+<p class="main_cnt ellipsis">오픈데이터, 디지털 트랜스포메이션을 말하다</p>
+<div class="date">2018-05-22</div>
+</a></li>
+<li class="tab_list"><a href="javascript:void(0)" class="clearfix">
+<div class="field">
+<p class="cnt">보도자료</p>
+</div>
+<p class="main_cnt ellipsis">'책 읽는 주말’에 ‘몸과 인문학’을 만나다</p>
+<div class="date">2018-05-19</div>
+</a></li>
+<li class="tab_list"><a href="javascript:void(0)" class="clearfix">
+<div class="field">
+<p class="cnt">보도자료</p>
+</div>
+<p class="main_cnt ellipsis">변화의 시대, 사서들이 주는 희망의 메시지</p>
+<div class="date">2018-05-09</div>
+</a></li>
+<li class="tab_list"><a href="javascript:void(0)" class="clearfix">
+<div class="field">
+<p class="cnt">보도자료</p>
+</div>
+<p class="main_cnt ellipsis">공공도서관에서 가장 자주 대출한 과학도서는?</p>
+<div class="date">2018-05-05</div>
+</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="full_ct clearfix">
+<div class="my_lib_wrap bg_g_s bg_g_w">
+<div class="my_lib com_p">
+<h3 class="main_tit"><a href="javascript:void(0)">내 서재</a></h3>
+<ul class="main_cnt clearfix">
+<li class="cnt cnt_1"><a href="javascript:void(0)">
+<div class="ir ir_1">개인정보관리이미지</div>
+<p class="tit">개인정보관리</p>
+</a></li>
+<li class="cnt cnt_2"><a href="javascript:void(0)">
+<div class="ir ir_2">대출예약/현황조회이미지</div>              
+<p class="tit">대출예약/현황조회</p>
+</a></li>
+<li class="cnt cnt_3"><a href="javascript:void(0)">
+<div class="ir ir_3">희망도서신청이미지</div>
+<p class="tit">희망도서신청</p>
+</a></li>
+<li class="cnt cnt_4"><a href="javascript:void(0)">
+<div class="ir ir_4">상호대차조회이미지</div>
+<p class="tit">상호대차조회</p>
+</a></li>
+</ul>
+</div>
+</div>
+<div class="sit_wrap bg_g_w">
+<div class="sit com_p">
+<h3 class="main_tit">열람실 좌석현황</h3>
+<div class="main_cnt_wrap">
+<div class="main_cnt clearfix">
+<div class="cnt cnt_1">
+<h4 class="sub_tit">제 1열람실<span class="floor">(3층)</span></h4>
+<div class="sit_cont clearfix">
+<div class="sit_now">
+<div class="tit">잔여좌석</div>
+<div class="sit_num">131<span>석</span></div>
+</div>
+<div class="sit_all">
+<div class="tit">전체좌석</div>
+<div class="sit_num">238<span>석</span></div>
+</div>
+</div>
+</div>
+<div class="cnt cnt_2">
+<h4 class="sub_tit">제 2열람실<span class="floor">(4층)</span></h4>
+<div class="sit_cont clearfix">
+<div class="sit_now">
+<div class="tit">잔여좌석</div>
+<div class="sit_num">179<span>석</span></div>
+</div>
+<div class="sit_all">
+<div class="tit">전체좌석</div>
+<div class="sit_num">302<span>석</span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="full_ct clearfix">
+<div class="new_book_wrap bg_g_s">
+<div class="new_book com_p">
+<h3 class="main_tit"><a href="javascript:void(0)">신착 도서</a></h3>
+<div class="new_bx_wrap">
+<div class="new">
+<div class="main_cnt clearfix">
+<p class="tit">Vue.js 첫걸음</p>
+<div class="new_img">
+<img src="imgs/new_book_1.png" alt="Vue.js 첫걸음 책표지">
+</div>
+</div>
+<div class="main_cnt clearfix">
+<p class="tit">Advanced PHP<br>Programming</p>
+<div class="new_img">
+<img src="imgs/new_book_2.png" alt="Advanced Php Programming 책표지">
+</div>
+</div>
+<div class="main_cnt clearfix">
+<p class="tit">Python 3 START-UP</p>
+<div class="new_img">
+<img src="imgs/new_book_3.png" alt="Python 3 START-UP 책표지">
+</div>
+</div>
+</div>
+<div class="controls"><a href="javascript:void(0);" class="ir new_prev_btn"><span>이전</span></a><a href="javascript:void(0);" class="ir  new_next_btn"><span>다음</span></a></div>
+</div>
+</div>
+</div>
+<div class="hot_book_wrap">
+<div class="hot_book com_p">
+<h3 class="main_tit">화제의 책</h3>
+<div class="main_cnt_wrap">
+<div class="main_cnt clearfix">
+<div class="book_img_wrap">
+<img src="imgs/hot_book.png" alt="책 이미지">
+</div>
+<div class="cnt">
+<p class="book_sub">자바스크립트 언어의 정수</p>
+<p class="book_name">더글라스 크락포드의<br> 자바스크립트 핵심 가이드</p>
+<p class="book_writer">더글라스 크락포드 저<br>김명신 역</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="full_ct clearfix">
+<div class="lec_wrap bg_g_s bg_g_w">
+<div class="lec com_p">
+<h3 class="main_tit"><a href="javascript:void(0)">강좌신청</a></h3>
+<div class="main_cnt_wrap">
+<div class="main_cnt">
+<a href="javascript:void(0)">
+<img class="lec_img" src="imgs/lec_poster.png" alt="강좌 포스터">
+<p class="lec_tit">엄마 아빠와 함께 배우는 코딩 첫 걸음</p>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="map_wrap bg_g_w">
+<div class="map com_p">
+<div class="map_tab_wrap main_cnt_wrap">
+<div class="tab_nav clearfix">
+<h3 class="main_tit main_tit_1 on"><a href="javascript:void(0)">찾아오시는 길</a></h3>
+<p class="main_tit main_tit_2"><a href="javascript:void(0)">지도로 보기 <span> &#8744;</span></a></p>
+</div>
+<div class="tab_cnt_wrap">
+<div class="tab_cnt cnt_1 on">
+<ul class="main_cnt">
+<li class="adr list">
+<h4 class="sub_tit">위치</h4>
+<p class="cnt">성남시 중원구 원터로 17번길 46</p>
+</li>
+<li class="subway list">
+<h4 class="sub_tit">지하철</h4>
+<div class="cnt cnt_1 clearfix">
+<img src="imgs/subway_1.png" alt="8호선" class="fll fll_1">
+<img src="imgs/subway_2.png" alt="분당선" class="fll fll_2">
+<p class="fll subway_name">모란역</p>
+</div>
+<div class="cnt cnt_2 clearfix">
+<img src="imgs/subway_1.png" alt="8호선" class="fll fll_1">
+<p class="fll subway_name">수진역</p>
+</div>
+</li>
+<li class="bus list">
+<h4 class="sub_tit">버스</h4>
+<p class="cnt">57, 60, 88, 88-1, 302<br>현대아파트<span>(하차)</span></p>
+</li>
+</ul>
+</div>
+<div class="tab_cnt cnt_2">
+<div id="myMap" class="my_map"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer id="footer">
+<div class="full_ct fl_ft_nav">
+<div class="inner_ct">
+<div class="ft_nav_wrap">
+<h2 class="blind">도서관 법령 및 정책</h2>
+<ul class="ft_nav">
+<li class="list str"><a href="javascript:void(0)">개인정보처리방침</a></li>
+<li class="list"><a href="javascript:void(0)">도서관법령</a></li>
+</ul>
+</div>
+</div>
+</div> 
+<div class="inner_ct">
+<div class="ft_logo_wrap clearfix">
+<h3 class="ft_logo">
+성남시중원도서관
+</h3>
+<p class="copyright">
+Copyright(c) 2018 themoonest.com All Rights Reserved.
+</p>
+</div>
+<div class="pc_ver">
+<a href="../index.html" class="btn go_pc">PC버전</a>
+</div>
+</div>
+</footer>
+</div>
+<div class="modal"></div>
+<nav class="sidemenu">
+<ul class="gnb">
+<li class="list"><a href="javascript:void(0)">도서관소개</a>
+<ul class="list_cnt">
+<li><a href="javascript:void(0)">인사말</a></li>
+<li><a href="javascript:void(0)">기구/조직</a></li>
+<li><a href="javascript:void(0)">이용안내</a></li>
+<li><a href="javascript:void(0)">찾아오시는 길</a></li>
+<li><a href="javascript:void(0)">도서관안내도</a></li>
+<li class="last"><a href="javascript:void(0)">서비스현장</a></li>
+</ul>
+</li>
+<li class="list"><a href="javascript:void(0)">자료검색</a>
+<ul class="list_cnt">
+<li><a href="javascript:void(0)">통합자료검색</a></li>
+<li><a href="javascript:void(0)">단행본검색(예약)</a></li>
+<li><a href="javascript:void(0)">연속간행물검색</a></li>
+<li><a href="javascript:void(0)">비도서검색</a></li>
+<li><a href="javascript:void(0)">원문정보서비스</a></li>
+<li class="last"><a href="javascript:void(0)">잡지목차서비스</a></li>
+</ul>
+</li>
+<li class="list"><a href="javascript:void(0)">열린마당</a>
+<ul class="list_cnt">
+<li><a href="javascript:void(0)">공지사항</a></li>
+<li><a href="javascript:void(0)">보도자료</a></li>
+<li><a href="javascript:void(0)">행사일정</a></li>
+<li><a href="javascript:void(0)">자유게시판</a></li>
+<li><a href="javascript:void(0)">자원봉사모집</a></li>
+<li><a href="javascript:void(0)">주간식단</a></li>
+<li class="last"><a href="javascript:void(0)">FAQ</a></li>
+</ul>
+</li>
+<li class="list"><a href="javascript:void(0)">문화강좌</a>
+<ul class="list_cnt">
+<li><a href="javascript:void(0)">강좌안내</a></li>
+<li><a href="javascript:void(0)">문화교실접수</a></li>
+<li><a href="javascript:void(0)">컴퓨터교육접수</a></li>
+<li><a href="javascript:void(0)">온라인접수</a></li>
+<li class="last"><a href="javascript:void(0)">단체접수</a></li>
+</ul>
+</li>
+<li class="list"><a href="javascript:void(0)">내서재</a>
+<ul class="list_cnt">
+<li><a href="javascript:void(0)">개인정보관리</a></li>
+<li><a href="javascript:void(0)">대출예약/현황조회</a></li>
+<li><a href="javascript:void(0)">희망도서신청</a></li>
+<li class="last nav_last"><a href="javascript:void(0)">상호대차조회</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
